@@ -1,0 +1,35 @@
+{
+  "usuario":[
+    {
+      "id": "andre@origamid.com",
+      "email": "andre@origamid.com",
+      "nome": "André Rafael",
+      "senha": "123",
+      "rua": "Rua Ali perto",
+      "cep": "123456",
+      "numero": "25",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro"
+    }
+  ],
+  "produto":[
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "marcos@origamid.com",
+      "preco": "3598",
+      "vendido": "false",
+      "descricao": "Esse é um novo Tablet",
+      "fotos": null
+    }
+  ]
+}
