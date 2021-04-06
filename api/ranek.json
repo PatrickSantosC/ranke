@@ -30,6 +30,15 @@
       "vendido": "false",
       "descricao": "Esse é um novo Tablet",
       "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "marcos@origamid.com",
+      "preco": "1587",
+      "vendido": "true",
+      "descricao": "Esse é um novo Smartphone",
+      "fotos": null
     }
   ]
 }

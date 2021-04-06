@@ -7,7 +7,6 @@
       value="Buscar"
       @click.prevent="buscarProdutos"
     />
-    {{ busca }}
   </form>
 </template>
 
@@ -20,7 +19,9 @@ export default {
     };
   },
   methods: {
-    buscarProdutos() {},
+    buscarProdutos() {
+      this.$router.push({ query: { q: this.busca } });
+    },
   },
 };
 </script>
