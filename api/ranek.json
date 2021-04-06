@@ -1,5 +1,5 @@
 {
-  "usuario":[
+  "usuario": [
     {
       "id": "andre@origamid.com",
       "email": "andre@origamid.com",
@@ -10,9 +10,32 @@
       "numero": "25",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "marcos@origamid.com",
+      "email": "marcos@origamid.com",
+      "nome": "Marcos André",
+      "senha": "12345",
+      "rua": "Rua Ali longe",
+      "cep": "5595955",
+      "numero": "35",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    {
+      "id": "mariana@gmail.com",
+      "nome": "mariana",
+      "email": "mariana@gmail.com",
+      "senha": "12554545",
+      "cep": "22640102",
+      "rua": "Avenida das Américas",
+      "numero": "100",
+      "bairro": "Barra da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
     }
   ],
-  "produto":[
+  "produto": [
     {
       "id": "notebook",
       "nome": "Notebook",
@@ -201,7 +224,8 @@
       "vendido": "true",
       "descricao": "Esse é um novo Smartphone",
       "fotos": null
-    },    {
+    },
+    {
       "id": "notebook",
       "nome": "Notebook",
       "usuario_id": "andre@origamid.com",
